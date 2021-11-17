@@ -21,6 +21,8 @@ Commons-Collections组件主要有两大版本：cc3和cc4。
 这里新手容易绕晕，这两个是完全独立的包。4出来的原因好像是大佬们觉得3写的不好，直接重构了一个全新版本。    
 
 cc3
+cc3可用的链有：1、3、5、6、7  
+
 ```xml
 <dependencies>
   <dependency>
@@ -30,10 +32,11 @@ cc3
   </dependency>
 </dependencies>
 ```
-cc3可用的链有：1、3、5、6、7  
 
 
 cc4
+cc4可用的链有：2、4  
+
 ```xml
 <dependencies>
   <dependency>
@@ -43,14 +46,30 @@ cc4
   </dependency>
 </dependencies>
 ```
-cc4可用的链有：2、4  
 
 还有大佬整合了k1，k2链可以通杀两大版本。    
 
 ## cc1
 重点，动态代理和反射要学好，不然很吃力。知识点非常多。  
-
 ## cc2 
+重点，和cc1一样需要重点理解，再继续学其他的，后面的链是前面这两条的各种变形。
+
+## cc3
+1和2的结合，理解TrAXFilter触发TemplatesImpl
+## cc4 
+2和3的结合
+
+## cc5
+重点，理解TiedMapEntry和BadAttributeValueExpException
+
+## cc6
+多种版本，学了前面再看这个就简单了。
+## cc7
+理解cc6
+
+## 7u21
+jdk原生链,复杂的一批。
+
 
 
 
